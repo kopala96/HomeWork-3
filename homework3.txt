@@ -1,0 +1,7 @@
+googli input  "Search" txtbox   ----> $(byName("q"));
+
+
+Google Search Button ----> $(byName ("btnK"),1);
+
+
+images ---> $(by ("data-pid", "2"));
