@@ -1,7 +1,5 @@
-googli input  "Search" txtbox   ----> $(byName("q"));
+googli Search  ----> $(byName("q"));
 
+ Search Button ----> $(byValue("Google ძებნა"));
 
-Google Search Button ----> $(byName ("btnK"),1);
-
-
-images ---> $(by ("data-pid", "2"));
+images  xpath --->  $(byXpath("//*[@id=\"gb\"]/div/div[1]/div/div[2]/a");
